@@ -34,8 +34,7 @@ int main(void)
     do
     {
         credit = get_long("Number: ");
-    }
-    while (credit <= 0);
+    } while (credit <= 0);
 
     // credit = 4003600000000014;
 
@@ -50,91 +49,89 @@ int main(void)
     // {
     //     printf("false");
     // }
-
 }
 
 // return number of digits in a number
 int get_digits_count(long long n)
 {
-    if (n < 9)
+    if (n < 10)
     {
         return 1;
     }
-    if (n < 99)
+    if (n < 100)
     {
         return 2;
     }
-    if (n < 999)
+    if (n < 1000)
     {
         return 3;
     }
-    if (n < 9999)
+    if (n < 10000)
     {
         return 4;
     }
-    if (n < 99999)
+    if (n < 100000)
     {
         return 5;
     }
-    if (n < 999999)
+    if (n < 1000000)
     {
         return 6;
     }
-    if (n < 9999999)
+    if (n < 10000000)
     {
         return 7;
     }
-    if (n < 99999999)
+    if (n < 100000000)
     {
         return 8;
     }
-    if (n < 999999999)
+    if (n < 1000000000)
     {
         return 9;
     }
-    if (n < 9999999999)
+    if (n < 10000000000)
     {
         return 10;
     }
-    if (n < 99999999999)
+    if (n < 100000000000)
     {
         return 11;
     }
-    if (n < 999999999999)
+    if (n < 1000000000000)
     {
         return 12;
     }
-    if (n < 9999999999999)
+    if (n < 10000000000000)
     {
         return 13;
     }
-    if (n < 99999999999999)
+    if (n < 100000000000000)
     {
         return 14;
     }
-    if (n < 999999999999999)
+    if (n < 1000000000000000)
     {
         return 15;
     }
-    if (n < 9999999999999999)
+    if (n < 10000000000000000)
     {
         return 16;
     }
-    if (n < 99999999999999999)
+    if (n < 100000000000000000)
     {
         return 17;
     }
-    if (n < 999999999999999999)
+    if (n < 1000000000000000000)
     {
         return 18;
     }
-    if (n < 9223372036854775807 - 1)
+    if (n < 9223372036854775807)
     {
         return 19;
     }
     return 0;
 }
-
 
 int get_first_n_digits(long long n, int count)
 {
