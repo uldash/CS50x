@@ -1,0 +1,4 @@
+	    random50000	reversed50000	sorted50000
+sort1	6,45	    4,79	        0,17	    Bubble sort
+sort2	0,17	    0,17	        0,18	    Merge sort
+sort3	2,69	    2,71	        2,7	        Selection sort
